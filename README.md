@@ -1,16 +1,12 @@
-Results and Insights
-
-Retail Sales Data Visualization – Superstore Dataset
+Results and Insights of Retail Sales Data Visualization – Superstore Dataset
 
 This section summarizes the analytical findings derived from descriptive, visual, and interactive analytics applied to the U.S. Superstore retail dataset. The results are organized by analytical objectives, highlighting key insights, business implications, and improvement plans supported by data visualizations.
 
 Objective 1: Descriptive & Visual Analysis of Retail Performance
-Exploratory Data Analysis (EDA)
-
+Exploratory Data Analysis (EDA):
 Initial exploration involved reviewing dataset structure, summary statistics, and data quality checks. No major missing values or type inconsistencies were identified. Histograms of numerical variables revealed strong right skewness in Sales and Profit, while categorical distributions highlighted dominant segments, shipping modes, and product categories.
 
-Key Findings
-
+Key Findings:
 Correlation Analysis:
 A correlation heatmap revealed a strong positive relationship between Sales and Profit, while other numerical variables showed weaker or negligible correlations.
 
@@ -18,37 +14,20 @@ Customer Concentration:
 A bar chart of the top 10 customers by total sales showed that a small group contributes disproportionately to revenue.
 
 Temporal Trends:
-
 Monthly sales trends showed clear seasonality and fluctuations.
-
 Boxplots of sales by weekday revealed performance differences across days.
 
 Pareto Effect:
 Pareto analysis confirmed the 80/20 rule, where a small percentage of customers generate the majority of sales.
 
 Regional & Product Insights:
+Some regions generate high sales but relatively lower profits.Certain product categories and sub-categories show high revenue but poor profitability, indicating margin inefficiencies.
 
-Some regions generate high sales but relatively lower profits.
-
-Certain product categories and sub-categories show high revenue but poor profitability, indicating margin inefficiencies.
-
-Business Implication
-
+Business Implication:
 This EDA provided a comprehensive foundation for deeper analysis by identifying top-performing customers, regions, and products, as well as areas with low or negative profitability that require strategic attention.
 
 Objective 2: Identifying High- and Under-Performing Products
-Methodology
-
-Product-level performance was analyzed in Power BI by aggregating total sales and profit per product. Using quartile-based classification, products were grouped into:
-
-High-Performing
-
-Under-Performing
-
-Low-Margin
-
-Moderate
-
+Methodology: Product-level performance was analyzed in Power BI by aggregating total sales and profit per product. Using quartile-based classification, products were grouped into:High-Performing, Under-Performing, Low-Margin and Moderate
 A scatterplot (Sales vs. Profit) with color-coded performance categories enabled intuitive exploration.
 
 Key Findings
@@ -62,9 +41,7 @@ Low-sales, loss-making items (e.g., Bookcases, Desk Accessories) emerged as cand
 Low-Margin Products:
 Products with high sales but weak or negative margins indicated over-discounting or high fulfillment costs.
 
-Sunburst Analysis
-
-A sunburst chart revealed hierarchical profit patterns:
+Sunburst Analysis: A sunburst chart revealed hierarchical profit patterns:
 
 Technology sub-categories (Phones, Accessories) dominate profitability.
 
